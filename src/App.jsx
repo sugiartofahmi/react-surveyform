@@ -1,13 +1,11 @@
-import { useState } from "react";
+import Home from "./view/Home";
 
-function App() {
-  const [count, setCount] = useState(0);
-
+const App = () => {
   return (
     <div className="App">
-      <h1 className="font-bold text-2xl">React Tailwind</h1>
+      <Home />
     </div>
   );
-}
+};
 
 export default App;
