@@ -21,7 +21,7 @@ const Form = () => {
   const [fields, setFields] = useState({
     name: "",
     kelas: "",
-    course: "",
+    course: "web",
   });
 
   return (
